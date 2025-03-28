@@ -282,6 +282,42 @@ Key fields:
 ![Replication](/assets/Replication%20Rule.png)
 ![KMS](/assets/Versioning%20and%20KMS%20Encryption-trf.png)
 ![CloudTrail](/assets/Cloud%20Trail.png)
+
+## HR Drug Test Compliance Project  
+**Organization:** University of Canada West HR Department  
+**Dataset:** Mock Employee screening records (2019-2022)  
+**🛠️ Tools Used**  
+- **Data Processing:** AWS Glue, AWS Catalog  
+- **Analysis:** Excel
+- **Storage:** AWS S3
+- **Security:** CloudWatch, Cloud Trail 
+### Key Insights  
+- **Overall positivity rate:** 4.2%  
+### Data Processing Pipeline  
+1. **Source:**  
+   - Raw HR CSV files (50+ records)   
+
+2. **Cleaning (AWS DataBrew):**  
+   - Removed 5 duplicate tests  
+   - Standardized 5 department name variants  
+   - Imputed missing test reasons (8 records)  
+
+3. **Transformation (AWS Glue):**  
+   - Multiple transformations, summarisation and cataloging.
+
+4. **Output:**  
+   - Curated Parquet files in S3
+   - Summarised Data catalog
+
+### Business Outcomes  
+- **Reduced** compliance investigation costs reductions 
+- **Identified** Departments wise need for training   
+- **Automated** Monthly reporting is automated  
+![Complete Design](/assets/HRDrugTestComplete%20Design.png)
+![ETL Summarisation](assets/Substance-List-Summarization%20(2).png)
+![TableSchema](/assets/TableSchema.png)
+![Visual ETL DrugTest](/assets/Visual%20ETLDrugTest.png)
+
 **LinkedIn:** [Keerthana Jalla](https://www.linkedin.com/in/keerthana-jalla-3ab5a5255/)  
 **Contact:** [keerthana.jalla121@gmail.com](mailto:keerthana.jalla121@gmail.com)
 
