@@ -1,6 +1,3 @@
-# Portfolio
-A portfolio website showcasing data analysis projects.
-
 # Data Analytics Portfolio
 
 ## 1. Exploratory Data Analysis: Vancouver Property Tax Trends
