@@ -32,7 +32,10 @@ Key fields:
 - Unexpected $0 tax levy recorded for 2025 (data quality issue)
 - Strong correlation between land value appreciation and tax increases
 
-![Data Cleaning Jobs](/assets/Cleaning%20Jobs.png)
+
+| ![Data Cleaning Jobs](/assets/Cleaning%20Jobs.png)| 
+|:--:| 
+| *Data Cleaning Jobs* |
 
 ---
 
@@ -87,8 +90,15 @@ GROUP BY reportyear;
 | 2024   | $7,626,135    | $42,179     | 0.55%       |
 
 
-![Official Changes](/assets/Expected%20Output%20Visualisation.png)
-![Cleaned Data Changes](/assets/ComparisionYearWise.png)
+| ![Official Changes](/assets/Expected%20Output%20Visualisation.png)| 
+|:--:| 
+| *Original Analysis* |
+
+| ![Cleaned Data Changes](/assets/ComparisionYearWise.png)| 
+|:--:| 
+| *Post-Cleaning Analysis* |
+
+
 ## 3. Data Wrangling Pipeline
 **Project Title:** Building a Reliable Property Data Pipeline
 
@@ -144,10 +154,21 @@ Key fields:
 
 - Enabled self-service analytics through catalog
 
-![Data Ingestion](/assets/Data%20Ingestion%20Rate%20Year.png)
-![Visual ETL](/assets/ETL%20Visual.png)
-![Crawler](/assets/Crawler.png)
-![Transformed Data](/assets/TransformedData.png)
+| ![Data Ingestion](/assets/Data%20Ingestion%20Rate%20Year.png)| 
+|:--:|
+| *Data Ingestion* |
+
+| ![Visual ETL](/assets/ETL%20Visual.png)| 
+|:--:| 
+| *Visual ETL* |
+
+| ![Crawler](/assets/Crawler.png)| 
+|:--:| 
+| *Crawler* |
+
+| ![Transformed Data](/assets/TransformedData.png)| 
+|:--:| 
+| *Transformed Data* |
 
 ## 4. Data Quality Framework
 **Project Title:** Ensuring Trust in Property Tax Data
@@ -199,10 +220,19 @@ Key fields:
 - Automated detection of 12 critical issues
 
 - Established ongoing quality metrics
-  
-![QualityChecksFailed](/assets/Quality%20Check%20Failed.png)
-![QualityChecksPasses](/assets/Quality%20Check%20Passed.png)
-![CloudWatch DashBoard](/assets/CloudWatch%20Dashboard.png)
+
+| ![QualityChecksFailed](/assets/Quality%20Check%20Failed.png)| 
+|:--:| 
+| *QualityChecks Failed Data* |
+
+| ![QualityChecksPasses](/assets/Quality%20Check%20Passed.png)| 
+|:--:| 
+| *QualityChecks Passed Data* |
+
+| ![CloudWatch DashBoard](/assets/CloudWatch%20Dashboard.png)| 
+|:--:| 
+| *CloudWatch DashBoard* |
+
 ## 5. Predictive Analysis Model
 Project Title: Forecasting Future Tax Revenues
 
@@ -278,10 +308,22 @@ Key fields:
 - CloudTrail (auditing)
 
 - S3 (storage management)
-![Complete Design](/assets/Complete%20Design.png)
-![Replication](/assets/Replication%20Rule.png)
-![KMS](/assets/Versioning%20and%20KMS%20Encryption-trf.png)
-![CloudTrail](/assets/Cloud%20Trail.png)
+
+| ![Complete Design](/assets/Complete%20Design.png)| 
+|:--:| 
+| *Complete Design* |
+
+| ![Replication](/assets/Replication%20Rule.png)| 
+|:--:| 
+| *S3 Bucket Replication* |
+
+| ![KMS](/assets/Versioning%20and%20KMS%20Encryption-trf.png)| 
+|:--:| 
+| *KMS Keys* |
+
+| ![CloudTrail](/assets/Cloud%20Trail.png)| 
+|:--:| 
+| *CloudTrail* |
 
 ## HR Drug Test Compliance Project  
 **Organization:** University of Canada West HR Department  
@@ -314,10 +356,22 @@ Key fields:
 - **Identified** Departments wise need for training   
 - **Automated** Monthly reporting is automated
 
-![Complete Design](/assets/HRDrugTestComplete%20Design.png)
-![ETL Summarisation](assets/Substance-List-Summarization%20(2).png)
-![TableSchema](/assets/TableSchema.png)
-![Visual ETL DrugTest](/assets/Visual%20ETLDrugTest.png)
+| ![Complete Design](/assets/HRDrugTestComplete%20Design.png)| 
+|:--:| 
+| *Complete Design* |
+
+| ![ETL Summarisation](assets/Substance-List-Summarization%20(2).png)| 
+|:--:| 
+| *ETL Summarisation* |
+
+| ![TableSchema](/assets/TableSchema.png)| 
+|:--:| 
+| *TableSchema* |
+
+| ![Visual ETL DrugTest](/assets/Visual%20ETLDrugTest.png)| 
+|:--:| 
+| *Visual ETL DrugTest* |
+
 
 **LinkedIn:** [Keerthana Jalla](https://www.linkedin.com/in/keerthana-jalla-3ab5a5255/)  
 **Contact:** [keerthana.jalla121@gmail.com](mailto:keerthana.jalla121@gmail.com)
