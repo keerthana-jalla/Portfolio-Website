@@ -5,7 +5,15 @@
 
 ### Objective
 To identify trends and anomalies in Vancouver's limited agriculture zone property data (2020-2025) through comprehensive data exploration.
-
+### Dataset: Vancouver Property Tax Records
+*Source: [City of Vancouver Open Data](https://opendata.vancouver.ca)*  
+Contains assessed property values and tax details for all land parcels in Vancouver. Data is updated annually from BC Assessment Authority records.   
+Key fields:
+- `PID` - Unique property identifier  
+- `current_land_value` - Market land value (CAD)  
+- `tax_levy` - Annual property taxes  
+- `year_built` - Construction year  
+- `report_year` - Data snapshot year  
 ### Methodology
 - **Initial Assessment:** Profiled raw dataset (606 records) using AWS DataBrew
 - **Data Cleaning:** 
@@ -33,7 +41,15 @@ To identify trends and anomalies in Vancouver's limited agriculture zone propert
 
 ### Objective
 To calculate and compare key statistics across reporting years, providing actionable insights for city planners.
-
+### Dataset: Vancouver Property Tax Records
+*Source: [City of Vancouver Open Data](https://opendata.vancouver.ca)*  
+Contains assessed property values and tax details for all land parcels in Vancouver. Data is updated annually from BC Assessment Authority records.   
+Key fields:
+- `PID` - Unique property identifier  
+- `current_land_value` - Market land value (CAD)  
+- `tax_levy` - Annual property taxes  
+- `year_built` - Construction year  
+- `report_year` - Data snapshot year  
 ### Methodology
 - **Data Aggregation:**
   - Calculated annual averages for land values and tax levies
@@ -77,7 +93,15 @@ GROUP BY reportyear;
 
 ### Objective
 To transform raw, semi-structured property data into an analysis-ready format while maintaining data integrity.
-
+### Dataset: Vancouver Property Tax Records
+*Source: [City of Vancouver Open Data](https://opendata.vancouver.ca)*  
+Contains assessed property values and tax details for all land parcels in Vancouver. Data is updated annually from BC Assessment Authority records.   
+Key fields:
+- `PID` - Unique property identifier  
+- `current_land_value` - Market land value (CAD)  
+- `tax_levy` - Annual property taxes  
+- `year_built` - Construction year  
+- `report_year` - Data snapshot year  
 ### Implementation
 **Ingestion:**
 
@@ -130,7 +154,15 @@ To transform raw, semi-structured property data into an analysis-ready format wh
 
 ### Objective
 To implement comprehensive quality checks guaranteeing reliable analytics outputs.
-
+### Dataset: Vancouver Property Tax Records
+*Source: [City of Vancouver Open Data](https://opendata.vancouver.ca)*  
+Contains assessed property values and tax details for all land parcels in Vancouver. Data is updated annually from BC Assessment Authority records.   
+Key fields:
+- `PID` - Unique property identifier  
+- `current_land_value` - Market land value (CAD)  
+- `tax_levy` - Annual property taxes  
+- `year_built` - Construction year  
+- `report_year` - Data snapshot year  
 ### Quality Measures Implemented
 **Completeness Checks:**
 
@@ -176,7 +208,15 @@ Project Title: Forecasting Future Tax Revenues
 
 ### Objective
 To develop a predictive model estimating 2025 tax levies based on historical trends.
-
+### Dataset: Vancouver Property Tax Records
+*Source: [City of Vancouver Open Data](https://opendata.vancouver.ca)*  
+Contains assessed property values and tax details for all land parcels in Vancouver. Data is updated annually from BC Assessment Authority records.   
+Key fields:
+- `PID` - Unique property identifier  
+- `current_land_value` - Market land value (CAD)  
+- `tax_levy` - Annual property taxes  
+- `year_built` - Construction year  
+- `report_year` - Data snapshot year  
 ### Methodology
 **Baseline Calculation:**
 
