@@ -154,7 +154,8 @@ Key fields:
 
 - Enabled self-service analytics through catalog
 
-| ![Data Ingestion](/assets/Data%20Ingestion%20Rate%20Year.png)| 
+
+| ![Data Ingestion](/assets/DataIngestionRateYear.png)| 
 |:--:|
 | *Data Ingestion* |
 
