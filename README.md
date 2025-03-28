@@ -27,7 +27,7 @@ To identify trends and anomalies in Vancouver's limited agriculture zone propert
 - Unexpected $0 tax levy recorded for 2025 (data quality issue)
 - Strong correlation between land value appreciation and tax increases
 
-![Data Cleaning Jons] (/assets/Cleaning Jobs.png)
+![Data Cleaning Jons](/assets/Cleaning%20Jobs.png)
 
 ---
 
@@ -73,8 +73,8 @@ GROUP BY reportyear;
 | 2023   | $7,108,590    | $38,763     | 0.55%       |
 | 2024   | $7,626,135    | $42,179     | 0.55%       |
 
-![Official Changes] (/assets/Expected Output Visualisation.png)
-1[Cleaned Data Changes] (/assets/ComparisionYearWise.png)
+![Official Changes](/assets/Expected%20Output%20Visualisation.png)
+![Cleaned Data Changes](/assets/ComparisionYearWise.png)
 ## 3. Data Wrangling Pipeline
 **Project Title:** Building a Reliable Property Data Pipeline
 
@@ -122,11 +122,11 @@ To transform raw, semi-structured property data into an analysis-ready format wh
 
 - Enabled self-service analytics through catalog
 
-![Data Ingestion] (/assets/Data Ingestion Rate Year.png)
-![Visual ETL] (/assets/ETL Visual.png)
-![Table Schema] (/assets/TableSchema.png)
-![Crawler] (/assets/Crawler.png)
-![Transformed Data] (/assets/TransformedData.png)
+![Data Ingestion](/assets/Data%20Ingestion%20Rate%20Year.png)
+![Visual ETL](/assets/ETL%20Visual.png)
+![Table Schema](/assets/TableSchema.png)
+![Crawler](/assets/Crawler.png)
+![Transformed Data](/assets/TransformedData.png)
 
 ## 4. Data Quality Framework
 **Project Title:** Ensuring Trust in Property Tax Data
@@ -171,10 +171,9 @@ To implement comprehensive quality checks guaranteeing reliable analytics output
 
 - Established ongoing quality metrics
   
-![QualityChecksFailed] (/assets/Quality Check Failed.png)
-![QualityChecksPasses] (/assets/Quality Check Passed.png)
-![Complete Design] (/assets/Complete Design.png)
-![CloudWatch DashBoard] (/assets/CloudWatch Dashboard.png)
+![QualityChecksFailed](/assets/Quality%20Check%20Failed.png)
+![QualityChecksPasses](/assets/Quality%20Check%20Passed.png)
+![CloudWatch DashBoard](/assets/CloudWatch%20Dashboard.png)
 ## 5. Predictive Analysis Model
 Project Title: Forecasting Future Tax Revenues
 
@@ -242,10 +241,10 @@ To develop a predictive model estimating 2025 tax levies based on historical tre
 - CloudTrail (auditing)
 
 - S3 (storage management)
-
-![Replication] (/assets/Replication Rule.png)
-![KMS] (/assets/Versioning and KMS Encryption-trf.png)
-![CloudTrail] (/assets/Cloud Trail.png)
+![Complete Design](/assets/Complete%20Design.png)
+![Replication](/assets/Replication%20Rule.png)
+![KMS](/assets/Versioning%20and%20KMS%20Encryption-trf.png)
+![CloudTrail](/assets/Cloud%20Trail.png)
 **LinkedIn:** [Keerthana Jalla](https://www.linkedin.com/in/keerthana-jalla-3ab5a5255/)  
 **Contact:** [keerthana.jalla121@gmail.com](mailto:keerthana.jalla121@gmail.com)
 
