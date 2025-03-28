@@ -32,7 +32,7 @@ Key fields:
 - Unexpected $0 tax levy recorded for 2025 (data quality issue)
 - Strong correlation between land value appreciation and tax increases
 
-![Data Cleaning Jons](/assets/Cleaning%20Jobs.png)
+![Data Cleaning Jobs](/assets/Cleaning%20Jobs.png)
 
 ---
 
@@ -85,6 +85,7 @@ GROUP BY reportyear;
 | 2022   | $7,032,620    | $37,004     | 0.53%       |
 | 2023   | $7,108,590    | $38,763     | 0.55%       |
 | 2024   | $7,626,135    | $42,179     | 0.55%       |
+
 
 ![Official Changes](/assets/Expected%20Output%20Visualisation.png)
 ![Cleaned Data Changes](/assets/ComparisionYearWise.png)
@@ -145,7 +146,6 @@ Key fields:
 
 ![Data Ingestion](/assets/Data%20Ingestion%20Rate%20Year.png)
 ![Visual ETL](/assets/ETL%20Visual.png)
-![Table Schema](/assets/TableSchema.png)
 ![Crawler](/assets/Crawler.png)
 ![Transformed Data](/assets/TransformedData.png)
 
@@ -312,7 +312,8 @@ Key fields:
 ### Business Outcomes  
 - **Reduced** compliance investigation costs reductions 
 - **Identified** Departments wise need for training   
-- **Automated** Monthly reporting is automated  
+- **Automated** Monthly reporting is automated
+
 ![Complete Design](/assets/HRDrugTestComplete%20Design.png)
 ![ETL Summarisation](assets/Substance-List-Summarization%20(2).png)
 ![TableSchema](/assets/TableSchema.png)
