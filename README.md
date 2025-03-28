@@ -33,7 +33,7 @@ Key fields:
 - Strong correlation between land value appreciation and tax increases
 
 
-| ![Data Cleaning Jobs](/assets/Cleaning%20Jobs.png)| 
+| ![Data Cleaning Jobs](/assets/CleaningJobs.png)| 
 |:--:| 
 | *Data Cleaning Jobs* |
 
@@ -90,7 +90,7 @@ GROUP BY reportyear;
 | 2024   | $7,626,135    | $42,179     | 0.55%       |
 
 
-| ![Official Changes](/assets/Expected%20Output%20Visualisation.png)| 
+| ![Official Changes](/assets/ExpectedOutputVisualisation.png)| 
 |:--:| 
 | *Original Analysis* |
 
@@ -158,7 +158,7 @@ Key fields:
 |:--:|
 | *Data Ingestion* |
 
-| ![Visual ETL](/assets/ETL%20Visual.png)| 
+| ![Visual ETL](/assets/ETLVisual.png)| 
 |:--:| 
 | *Visual ETL* |
 
@@ -221,15 +221,15 @@ Key fields:
 
 - Established ongoing quality metrics
 
-| ![QualityChecksFailed](/assets/Quality%20Check%20Failed.png)| 
+| ![QualityChecksFailed](/assets/QualityCheckFailed.png)| 
 |:--:| 
 | *QualityChecks Failed Data* |
 
-| ![QualityChecksPasses](/assets/Quality%20Check%20Passed.png)| 
+| ![QualityChecksPasses](/assets/QualityCheckPassed.png)| 
 |:--:| 
 | *QualityChecks Passed Data* |
 
-| ![CloudWatch DashBoard](/assets/CloudWatch%20Dashboard.png)| 
+| ![CloudWatch DashBoard](/assets/CloudWatchDashboard.png)| 
 |:--:| 
 | *CloudWatch DashBoard* |
 
@@ -309,19 +309,19 @@ Key fields:
 
 - S3 (storage management)
 
-| ![Complete Design](/assets/Complete%20Design.png)| 
+| ![Complete Design](/assets/CompleteDesign.png)| 
 |:--:| 
 | *Complete Design* |
 
-| ![Replication](/assets/Replication%20Rule.png)| 
+| ![Replication](/assets/ReplicationRule.png)| 
 |:--:| 
 | *S3 Bucket Replication* |
 
-| ![KMS](/assets/Versioning%20and%20KMS%20Encryption-trf.png)| 
+| ![KMS](/assets/VersioningandKMSEncryption-trf.png)| 
 |:--:| 
 | *KMS Keys* |
 
-| ![CloudTrail](/assets/Cloud%20Trail.png)| 
+| ![CloudTrail](/assets/CloudTrail.png)| 
 |:--:| 
 | *CloudTrail* |
 
@@ -356,11 +356,11 @@ Key fields:
 - **Identified** Departments wise need for training   
 - **Automated** Monthly reporting is automated
 
-| ![Complete Design](/assets/HRDrugTestComplete%20Design.png)| 
+| ![Complete Design](/assets/HRDrugTestCompleteDesign.png)| 
 |:--:| 
 | *Complete Design* |
 
-| ![ETL Summarisation](assets/Substance-List-Summarization%20(2).png)| 
+| ![ETL Summarisation](assets/Substance-List-Summarization(2).png)| 
 |:--:| 
 | *ETL Summarisation* |
 
@@ -368,7 +368,7 @@ Key fields:
 |:--:| 
 | *TableSchema* |
 
-| ![Visual ETL DrugTest](/assets/Visual%20ETLDrugTest.png)| 
+| ![Visual ETL DrugTest](/assets/VisualETLDrugTest.png)| 
 |:--:| 
 | *Visual ETL DrugTest* |
 
