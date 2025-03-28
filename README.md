@@ -18,19 +18,16 @@ To identify trends and anomalies in Vancouver's limited agriculture zone propert
 - **Pattern Discovery:**
   - Analyzed correlation between land values and tax levies
   - Identified year-over-year changes
-  - Flagged data anomalies (zero tax levy in 2025)
 
 ### Tools & Technologies
 - AWS DataBrew (data profiling)
-- Python (Pandas for initial analysis)
-- Jupyter Notebook (documentation)
 
 ### Key Findings
 - Steady increase in average land values (42% growth 2020-2024)
 - Unexpected $0 tax levy recorded for 2025 (data quality issue)
 - Strong correlation between land value appreciation and tax increases
 
-[View Sample Visualization](#) | [GitHub Code](#)
+![Data Cleaning Jons](/assets/Cleaning Jobs.png)
 
 ---
 
@@ -76,9 +73,8 @@ GROUP BY reportyear;
 | 2023   | $7,108,590    | $38,763     | 0.55%       |
 | 2024   | $7,626,135    | $42,179     | 0.55%       |
 
-
-View Complete Analysis | Query Examples
-
+![Official Changes] (/assets/Expected Output Visualisation.png)
+1[Cleaned Data Changes](/assets/ComparisionYearWise.png)
 ## 3. Data Wrangling Pipeline
 **Project Title:** Building a Reliable Property Data Pipeline
 
@@ -117,18 +113,20 @@ To transform raw, semi-structured property data into an analysis-ready format wh
 
 - Amazon S3 (storage tiers)
 
-- Python (custom transformations)
-
 - DataBrew (profiling)
 
 ### Outcomes
-- Reduced processing time by 60% through automation
+- Reduced processing time by through automation
 
-- Improved query performance by 3x with proper typing
+- Improved query performance with proper typing
 
 - Enabled self-service analytics through catalog
 
-Pipeline Diagram | ETL Code Samples
+![Data Ingestion](/assets/Data Ingestion Rate Year.png)
+![Visual ETL](/assets/ETL Visual.png)
+![Table Schema](/assets/TableSchema.png)
+![Crawler](/assets/Crawler.png)
+![Transformed Data](/assets/TransformedData.png)
 
 ## 4. Data Quality Framework
 **Project Title:** Ensuring Trust in Property Tax Data
@@ -163,12 +161,8 @@ To implement comprehensive quality checks guaranteeing reliable analytics output
 
 ### Tools & Technologies
 - AWS Glue Data Quality
-
 - CloudWatch (monitoring)
-
 - SNS (alerting)
-
-- Custom Python validators
 
 ### Impact
 - Reduced data errors by 75%
@@ -176,9 +170,11 @@ To implement comprehensive quality checks guaranteeing reliable analytics output
 - Automated detection of 12 critical issues
 
 - Established ongoing quality metrics
-
-Quality Dashboard | Validation Rules
-
+  
+![QualityChecksFailed](/assets/Quality Check Failed.png)
+![QualityChecksPasses](/assets/Quality Check Passed.png)
+![Complete Design](/assets/Complete Design.png)
+![CloudWatch DashBoard](/assets/CloudWatch Dashboard.png)
 ## 5. Predictive Analysis Model
 Project Title: Forecasting Future Tax Revenues
 
@@ -190,35 +186,20 @@ To develop a predictive model estimating 2025 tax levies based on historical tre
 
 - Determined historical tax rate (0.536% of land value)
 
-- Calculated annual variance (σ = 0.012%)
-
 **2025 Projection:**
 ```
 2025 Predicted Tax = 2025 Avg Land Value × Historical Rate
                   = $7,475,953 × 0.00536
                   ≈ $40,093
 ```
-**Sensitivity Analysis:**
-
-- ±1σ range: 39,200−39,200−40,900
-
-- Compared to city's official projections
 
 ### Tools & Technologies
 - AWS Athena (aggregation)
-
-- Python (statistical analysis)
-
-- Jupyter (documentation)
+- SQL
 
 ### Business Value
 - Provided data-driven budget forecast
-
-- Identified potential $0 tax levy as data issue
-
 - Established repeatable forecasting method
-
-Forecast Details | Analysis Notebook
 
 ## Infrastructure & Security
 **Project Title:** Secure Cloud Analytics Platform
@@ -262,7 +243,8 @@ Forecast Details | Analysis Notebook
 
 - S3 (storage management)
 
-Architecture Diagram | Security White Paper
+![Replication](/assets/Replication Rule.png)
+![KMS](/assets/Versioning and KMS Encryption-trf.png)
 
 **LinkedIn:** [Keerthana Jalla](https://www.linkedin.com/in/keerthana-jalla-3ab5a5255/)  
 **Contact:** [keerthana.jalla121@gmail.com](mailto:keerthana.jalla121@gmail.com)
