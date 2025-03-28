@@ -360,7 +360,7 @@ Key fields:
 |:--:| 
 | *Complete Design* |
 
-| ![ETL Summarisation](assets/Substance-List-Summarization(2).png)| 
+| ![ETL Summarisation](/assets/Substance-List-Summarization(2).png)| 
 |:--:| 
 | *ETL Summarisation* |
 
