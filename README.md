@@ -81,6 +81,7 @@ GROUP BY reportyear;
 - SQL (analysis)
 
 ### Results Summary
+
 | Year   | Avg Land Value | Avg Tax Levy | Tax Rate (%) |
 |--------|---------------:|-------------:|-------------:|
 | 2020   | $5,262,145    | $26,882     | 0.51%       |
